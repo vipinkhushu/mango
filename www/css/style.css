@@ -1,0 +1,24 @@
+/* Empty. Add your own CSS if you like */
+#noDecor{
+	text-decoration: none;
+}
+#back{
+	background:url("../img/bg.jpg")no-repeat center center fixed;
+	height: 100%;
+}
+#homeico{
+	background-color: #F8F8F8;
+	color:#000000;
+	border-radius: 20px;
+}
+#homeico:hover{
+	background-color: #D4B589;
+	color:#FFFFFF;
+}
+#required{
+	color:red;
+}
+#map {
+    width: 100%;
+    height: 100%;
+}

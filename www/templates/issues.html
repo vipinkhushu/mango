@@ -1,0 +1,36 @@
+  <div class="row">
+  <div class="tabs-striped tabs-top tabs-color-assertive">
+    <div class="tabs">
+     
+      <a class="tab-item active">
+       <!--  <i class="icon ion-ios-paper-outline"></i> -->
+        All issues
+      </a>
+    
+      
+      
+       <a class="tab-item" href="#/app/all_issues">
+       <!--  <i class="icon ion-android-contacts"></i> -->
+        NearBy issues
+       </a>
+      
+    </div>
+
+
+  </div> 
+ 
+  <ion-list>
+      
+      <br><br><br>
+      <div class="card">
+       <div class="item item-text-wrap">
+         <ion-item ng-repeat="issue in issues" href="#">
+             {{issue.title}}
+          </ion-item>
+          
+       </div>
+      </div>
+  </ion-list>
+   
+
+

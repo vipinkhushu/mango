@@ -1,0 +1,13 @@
+<ion-view>
+    <ion-content ng-class="{'has-footer': showFooter}">
+        <div id="map" data-tap-disabled="true"></div>
+    </ion-content>
+    <ion-footer-bar class="bar-stable" style="text-align:center;" ng-show="showFooter">
+    	<div class="buttons col-50" ng-click="report()">
+		    <button class="button" ng-click="showPopup()">Review</button>
+		</div>
+		<div class="buttons col-50" ng-click="review()">
+		  	<button class="button">Report</button>
+		</div>
+	</ion-footer-bar>
+</ion-view>

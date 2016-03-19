@@ -1,0 +1,43 @@
+<ion-view view-title="Add A Toilet">
+  <ion-content>
+    <div class="list">
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Your Email <span id="required">*</span></span>
+        <input type="text" placeholder="Your Email">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Address Of Toilet <span id="required">*</span></span>
+        <input type="text" placeholder="Address Of Toilet">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Upload A Picture <span id="required">*</span></span>
+        <input type="file">
+      </label>
+      <div class="row">
+        <div class="col">
+          <ion-checkbox ng-model="filter.blue">Male</ion-checkbox>
+        </div>
+        <div class="col">
+          <ion-checkbox ng-model="filter.yellow">Female</ion-checkbox>
+        </div>
+      </div>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Charges To Use</span>
+        <input type="text" placeholder="Charges">
+      </label>
+      <label class="item item-input item-select">
+          <div class="input-label">
+            Parking Available
+          </div>
+          <select>
+            <option>No</option>
+            <option selected>Yes</option>
+           
+          </select>
+        </label>
+    </div>
+    <button class="button button-block button-positive">
+      Add
+    </button>
+  </ion-content>
+</ion-view>
